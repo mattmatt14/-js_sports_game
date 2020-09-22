@@ -30,7 +30,10 @@ shootButton2.addEventListener("click", function() {
 
 })   
 
+let resetButton = document.querySelector("reset-button");
 
-  
+  function myFunction() {
+      document.getElementById("reset-button").reset();
+  }
     
 
